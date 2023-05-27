@@ -1,0 +1,31 @@
+/* Estilos básicos */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(165, 145, 183);
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsividade */
+@media screen and (max-width: 600px) {
+  canvas {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  canvas {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  canvas {
+    width: 40%;
+  }
+}

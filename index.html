@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Criação e Ativação de Sigilos</title>
+    <style>
+        #sigil {
+          width: 300px;
+          height: 300px;
+          background-color: #f0f0f0;
+          border: 1px solid #ccc;
+        }
+    
+        .centered {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+        }
+    
+        .animated-title {
+          animation: pulse 2s ease-in-out infinite;
+        }
+    
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.2);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="centered">
+        <h1 class="animated-title">Criação e Ativação de Sigilos</h1>
+    
+        <h2>Passos:</h2>
+        <ol>
+          <li>Escreva a afirmação e remova as vogais repetidas.</li>
+          <li>Associe as letras aos números na circunferência.</li>
+          <li>Conecte os números na sequência das letras.</li>
+          <li>Simplifique e estilize o desenho.</li>
+          <li>Carregue e libere o sigilo.</li>
+        </ol>
+    
+        <h2>Sigilo:</h2>
+        <canvas id="sigil" width="300" height="300"></canvas>
+      </div>
+    
+      <script src="script.js"></script>
+    </body>
+    </html>
